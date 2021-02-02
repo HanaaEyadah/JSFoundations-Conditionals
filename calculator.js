@@ -1,3 +1,19 @@
-// Define the numbers and the operation here
+let firstNumber = 10;
+let secondNumber = 5 ;
+let operation = "+";
 
-// Write if-statements here
+if (operation == "+"){
+
+    let calc = firstNumber+secondNumber;
+    console.log(calc);
+} else if (operation == "-"){
+
+    let calc = firstNumber-secondNumber;
+    console.log(calc);
+} else if (operation == "*"){
+    let calc = firstNumber*secondNumber;
+    console.log(calc);
+} else if (operation == "/"){
+    let calc = firstNumber/secondNumber;
+    console.log(calc);
+}
